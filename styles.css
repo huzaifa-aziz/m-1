@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
     padding: 2rem 12%;
-    background: rgba(18, 18, 18, 0.85); /* Slightly darker transparent background */
+    background: rgba(18, 18, 18, 0.85);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,21 @@ header {
 }
 
 
-/* header */
+.cv-download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cv-download-btn:hover {
+    background-color: var(--secondary-color); 
+}
+
+
 
 
 
@@ -104,7 +118,7 @@ section {
     font-size: 1.4rem;
     max-width: 600px;
     line-height: 1.8;
-    color: #b0bec5; /* Light gray for paragraph text */
+    color: #b0bec5;
 }
 
 .home-img img {
